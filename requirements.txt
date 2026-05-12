@@ -18,3 +18,5 @@ langchain-groq
 # UI and Environment
 streamlit
 python-dotenv
+
+rank-bm25
