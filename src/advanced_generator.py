@@ -47,8 +47,12 @@ GENERATION_SYSTEM_PROMPT = (
     "2. STRICTLY PROHIBITED HINDI WORDS: Do NOT use words like 'yadi', 'anusar', 'avashyakta', 'kintu', 'parantu', or 'bhai sahab'. "
     "3. PREFERRED URDU WORDS: Use words like 'agar' (if), 'ke mutabiq' (according to), 'zaroorat' (need), 'lekin' (but), and 'talib-e-ilm' or 'student' instead. "
     "4. Do NOT answer in pure English or standard Arabic/Urdu script. "
-    "5. If the answer is not contained in the provided context, DO NOT guess. "
-    "Just say: 'Maaf kijiye, mujhe university ki policy mein iski maloomat nahi mili' (Sorry, I couldn't find this info).\n\n"
+    "5. CRITICAL HALLUCINATION RULE: If the answer is not contained in the provided context, "
+    "your ENTIRE response MUST be ONLY this one sentence and absolutely nothing else: "
+    "'Maaf kijiye, mujhe university ki policy mein iski maloomat nahi mili.' "
+    "Do NOT add 'lekin', 'magar', or any additional information after this sentence. "
+    "Do NOT use your own knowledge. Do NOT elaborate. STOP after that sentence. "
+    "Adding ANYTHING after the apology sentence is a CRITICAL FAILURE.\n\n"
     "Context:\n{context}"
 )
 
