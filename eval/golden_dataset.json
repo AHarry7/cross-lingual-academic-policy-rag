@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "tier": "clean",
+    "topic": "grading",
+    "question": "grading policy kia hai?",
+    "ground_truth": "GIKI ki grading policy ke mutabiq students ko unki performance ki base par A, A-, B+, B, B-, C+, C, C-, D+, D, ya F grades diye jate hain. A grade ka Grade Point 4.00 hota hai aur F ka 0.00. Iske ilawa I (Incomplete), E (Exemption) aur W (Withdrawn) grades bhi hote hain jo GPA calculation mein count nahi hote."
+  },
+  {
+    "id": 2,
+    "tier": "clean",
+    "topic": "probation",
+    "question": "academic probation kya hoti hai?",
+    "ground_truth": "GIKI policy ke mutabiq, good academic standing ke liye minimum semester GPA 2.00 hona zaroori hai. Agar kisi student ka semester GPA 2.00 se kam ho jaye, toh usay next semester ke liye academic probation par daal diya jata hai, aur wo sirf 10-13 credit hours register kar sakta hai."
+  },
+  {
+    "id": 3,
+    "tier": "clean",
+    "topic": "attendance",
+    "question": "attendance policy kia hai?",
+    "ground_truth": "GIKI ki policy ke mutabiq, final examination mein baithne ke liye har course ke total lectures aur lab work ka kam az kam 80% attend karna lazmi hai."
+  },
+  {
+    "id": 4,
+    "tier": "clean",
+    "topic": "deans_list",
+    "question": "Dean's list kya hoti hai?",
+    "ground_truth": "GIKI policy ke mutabiq, har semester ke end par Faculties students ko unki performance ki base par Dean's honors list mein shamil karti hain. Is list mein aane ke liye normal course load lena zaroori hai aur semester GPA ke hisaab se Highest Distinction (3.90-4.00), High Distinction (3.75-3.89), ya Distinction (3.50-3.74) di jati hai."
+  },
+  {
+    "id": 5,
+    "tier": "clean",
+    "topic": "semester_rules",
+    "question": "semester drop karne ki policy kya hai?",
+    "ground_truth": "Agar student ek semester se zyada ka break leta hai, toh wapis aane par uske credits Dean evaluate karta hai aur usay naye curriculum ke mutabiq apna degree plan modify karna parh sakta hai."
+  },
+  {
+    "id": 6,
+    "tier": "clean",
+    "topic": "fee",
+    "question": "late fee ki policy kya hai?",
+    "ground_truth": "Agar student due date tak tuition fee pay na kare, toh us par Rs. 50 per day ke hisaab se fine charge kiya jata hai."
+  },
+  {
+    "id": 7,
+    "tier": "misspelled",
+    "topic": "grading",
+    "question": "grading polici kya hoti h?",
+    "ground_truth": "GIKI ki grading policy ke mutabiq students ko unki performance ki base par A, A-, B+, B, B-, C+, C, C-, D+, D, ya F grades diye jate hain. A grade ka Grade Point 4.00 hota hai aur F ka 0.00. Iske ilawa I (Incomplete), E (Exemption) aur W (Withdrawn) grades bhi hote hain jo GPA calculation mein count nahi hote."
+  },
+  {
+    "id": 8,
+    "tier": "misspelled",
+    "topic": "probation",
+    "question": "probashion kab lagti hai stdnt ko?",
+    "ground_truth": "GIKI policy ke mutabiq, good academic standing ke liye minimum semester GPA 2.00 hona zaroori hai. Agar kisi student ka semester GPA 2.00 se kam ho jaye, toh usay next semester ke liye academic probation par daal diya jata hai, aur wo sirf 10-13 credit hours register kar sakta hai."
+  },
+  {
+    "id": 9,
+    "tier": "misspelled",
+    "topic": "attendance",
+    "question": "attendence kitni honi chahye?",
+    "ground_truth": "GIKI ki policy ke mutabiq, final examination mein baithne ke liye har course ke total lectures aur lab work ka kam az kam 80% attend karna lazmi hai."
+  },
+  {
+    "id": 10,
+    "tier": "misspelled",
+    "topic": "deans_list",
+    "question": "din list k liye kya krna parta hai?",
+    "ground_truth": "Dean's honors list mein shamil hone ke liye student ko normal course load (ya us se zyada) lena lazmi hai. Iske sath apka semester GPA kam az kam 3.50 hona chahiye taa ke aapko Distinction mil sakay."
+  },
+  {
+    "id": 11,
+    "tier": "misspelled",
+    "topic": "semester_rules",
+    "question": "semstr drop krne ka tarika kya h?",
+    "ground_truth": "Agar student ek semester se zyada ka break leta hai, toh wapis aane par uske credits Dean evaluate karta hai aur usay naye curriculum ke mutabiq apna degree plan modify karna parh sakta hai."
+  },
+  {
+    "id": 12,
+    "tier": "misspelled",
+    "topic": "fee",
+    "question": "lait fii kb lagti hai?",
+    "ground_truth": "Agar student due date tak tuition fee pay na kare, toh us par Rs. 50 per day ke hisaab se fine charge kiya jata hai."
+  },
+  {
+    "id": 13,
+    "tier": "misspelled",
+    "topic": "hod_permission",
+    "question": "HOD se permishon leni hoti h kya extra cources k liye?",
+    "ground_truth": "Normal credit hour limit 15-18 hai. Is upper limit se zyada courses lene ke liye student ka good academic standing hona zaroori hai aur iske liye Dean ki approval lazmi hoti hai. Maximum limit 21 credit hours hai."
+  },
+  {
+    "id": 14,
+    "tier": "code_mixed",
+    "topic": "grading",
+    "question": "agar mera koi subject fail ho jaye toh GPA pe kya impact hoga?",
+    "ground_truth": "F grade ki wajah se aapka GPA kam ho jayega kyunki iska Grade Point 0.00 hota hai. Agar course degree requirement hai toh aapko usay lazmi repeat karna hoga. Repeat karne par transcript mein sab grades show honge, lekin CGPA calculation mein sirf latest grade count hoga."
+  },
+  {
+    "id": 15,
+    "tier": "code_mixed",
+    "topic": "probation",
+    "question": "agar mera CGPA 2.0 se neeche chala jaye toh kya probation milti hai university mein?",
+    "ground_truth": "Jee haan, agar aapka semester GPA 2.00 se kam ho, toh aapko academic probation par daal diya jata hai. Agar aapka SGPA musalsal do (2) regular semesters tak 2.00 se kam rehta hai, toh aapka naam university ke roll se remove kar diya jata hai."
+  },
+  {
+    "id": 16,
+    "tier": "code_mixed",
+    "topic": "attendance",
+    "question": "kitni classes miss karne pe mujhe debar kar sakte hain exam se?",
+    "ground_truth": "Aapko final exam mein baithne ke liye kam az kam 80% attendance chahiye hoti hai. Agar attendance 80% se kam ho toh aap exam mein appear nahi ho sakte."
+  },
+  {
+    "id": 17,
+    "tier": "code_mixed",
+    "topic": "deans_list",
+    "question": "Dean's list mein aane ke liye minimum CGPA kitna hona chahiye?",
+    "ground_truth": "Dean's list mein aane ke liye minimum semester GPA 3.50 hona chahiye (Distinction category ke liye). Iske ilawa, student ka normal course load uthana bhi lazmi requirement hai."
+  },
+  {
+    "id": 18,
+    "tier": "code_mixed",
+    "topic": "semester_rules",
+    "question": "kya main ek saath do subjects drop kar sakta hoon ek hi semester mein?",
+    "ground_truth": "Jee haan, aap semester ke 4th se 10th week ke darmiyan Dean ki approval se ek ya us se zyada courses withdraw kar sakte hain, jis par transcript mein W grade aayega. Lekin 10th week ke baad withdraw karne pe F grade milta hai."
+  },
+  {
+    "id": 19,
+    "tier": "code_mixed",
+    "topic": "hod_permission",
+    "question": "extra course lene ke liye HOD ki permission kab zaroor hoti hai?",
+    "ground_truth": "Normal credit hour limit 15-18 hai. Is upper limit se zyada courses lene ke liye student ka good academic standing hona zaroori hai aur iske liye Dean ki approval lazmi hoti hai. Maximum limit 21 credit hours hai."
+  },
+  {
+    "id": 20,
+    "tier": "code_mixed",
+    "topic": "fee",
+    "question": "fee deadline ke baad payment karne par kitna fine lagta hai?",
+    "ground_truth": "Fee deadline ke baad payment karne par Rs. 50 per day ke hisaab se late fine charge hota hai."
+  },
+  {
+    "id": 21,
+    "tier": "code_mixed",
+    "topic": "grading",
+    "question": "grade improvement exam dene ke liye kya conditions hain university ki taraf se?",
+    "ground_truth": "Aap sirf un courses ko repeat kar sakte hain jin mein aapko F, D, D+ ya C- grade mila ho. Ye courses aapko grade milne ke 3 semesters ke andar repeat karne hote hain. Summer semester mein sirf wohi students course le sakte hain jinho ne pehle course fail kiya ho ya grades improve karna chahte hon."
+  },
+  {
+    "id": 22,
+    "tier": "keyword_exact",
+    "topic": "grading",
+    "question": "GPA 2.0 se kam hone par kya kya consequences hote hain?",
+    "ground_truth": "Agar SGPA 2.00 se kam ho toh student ko probation par daala jata hai aur usay 10-13 credit hours lene ki ijazat hoti hai. Agar musalsal do semesters tak SGPA 2.00 se kam rahe toh student ko university se nikal diya jata hai."
+  },
+  {
+    "id": 23,
+    "tier": "keyword_exact",
+    "topic": "probation",
+    "question": "academic dismissal aur academic probation mein kya farq hai?",
+    "ground_truth": "Academic probation tab lagti hai jab aapka ek semester ka GPA 2.00 se kam ho. Lekin academic dismissal tab hota hai jab aapka SGPA musalsal do semesters tak 2.00 se kam rahe, jis ke nateejay mein aapka naam university se remove kar diya jata hai."
+  },
+  {
+    "id": 24,
+    "tier": "keyword_exact",
+    "topic": "deans_list",
+    "question": "Dean's Honor List ke liye CGPA threshold kya hai?",
+    "ground_truth": "Dean's Honor List ke liye teen specific GPA thresholds hain (sath hi normal course load lazmi hai): Distinction ke liye 3.50 se 3.74, High Distinction ke liye 3.75 se 3.89, aur Highest Distinction ke liye 3.90 se 4.00."
+  },
+  {
+    "id": 25,
+    "tier": "keyword_exact",
+    "topic": "semester_rules",
+    "question": "W grade aur WF grade mein kya difference hai transcript pe?",
+    "ground_truth": "Policy ke mutabiq, agar aap 4th se 10th week ke darmiyan course withdraw karte hain toh W grade milta hai, jo GPA mein count nahi hota. Lekin 10th week ke baad withdraw karne par F grade milta hai. Handbook mein 'WF' grade ka zikar nahi hai."
+  },
+  {
+    "id": 26,
+    "tier": "keyword_exact",
+    "topic": "attendance",
+    "question": "75 percent attendance rule ka matlab kya hai aur is se kya hota hai?",
+    "ground_truth": "GIKI mein 75 percent attendance ka koi rule nahi hai. Policy ke mutabiq attendance ka minimum requirement 80% hai. Agar attendance 80% se kam ho toh student final exam mein baithne ke qabil nahi rehta."
+  },
+  {
+    "id": 27,
+    "tier": "keyword_exact",
+    "topic": "grading",
+    "question": "Incomplete grade yani I-grade kab diya jata hai student ko?",
+    "ground_truth": "I-grade un students ko milta hai jin ka kisi course ka koi thora sa kaam baqi ho. Ye outstanding requirement aglay semester ke pehle 2 hafton (weeks) mein poori karni hoti hai, warna I-grade F-grade mein tabdeel ho jata hai. I-grade GPA mein count nahi hota."
+  },
+  {
+    "id": 28,
+    "tier": "keyword_exact",
+    "topic": "semester_rules",
+    "question": "maximum credit hours per semester kitne hote hain undergraduate students ke liye?",
+    "ground_truth": "Normal load 15-18 credit hours hai, aur exceptional case mein 19 ho sakta hai. Good academic standing walay students Dean ki approval se is limit se zyada le sakte hain, lekin kisi bhi surat mein maximum limit 21 credit hours se zyada nahi ho sakti."
+  }
+]
