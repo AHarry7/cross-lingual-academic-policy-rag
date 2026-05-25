@@ -20,3 +20,6 @@ streamlit
 python-dotenv
 
 rank-bm25
+
+# Evaluation
+ragas
