@@ -1,0 +1,5 @@
+﻿Metric,Baseline,Advanced,Hybrid
+context_precision,0.5037,0.7143,0.6150
+faithfulness,0.4117,0.4917,0.5250
+answer_relevancy,0.3452,0.4533,0.3481
+answer_correctness,0.4678,0.5404,0.5598
